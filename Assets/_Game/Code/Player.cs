@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
 	private Vector3 velocity = Vector3.zero;
 
 	private CharacterController controller;
-	[SerializeField] private Transform cameraTransform;
+	[SerializeField] private Transform cameraTransform = null;
 
 
 	private void Start()
